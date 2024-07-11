@@ -105,3 +105,23 @@ img {
     width: 100%;
     object-fit: cover;
 }
+
+/* ------מסך בינוני-------*/
+@media screen and (max-width: 1024px){
+    .container{
+        width: var(--container-width-md);
+    }
+    section{
+        margin-top: 6rem;
+    }
+}
+
+/* ------מסך קטן-------*/
+@media screen and (max-width: 600px){
+    .container{
+        width: var(--container-width-ms);
+    }
+    section{
+        margin-top: 2rem;
+    }
+}
