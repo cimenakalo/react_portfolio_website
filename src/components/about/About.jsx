@@ -1,6 +1,6 @@
 import { React } from "react"
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me-about.jpeg'
 
 function About() {
     return (
@@ -13,7 +13,7 @@ function About() {
               <img src={ME}alt="About Image" />
             </div>
           </div>
-          <div className="about_content">
+          <div className="about_contact">
 
           </div>
         </div>
